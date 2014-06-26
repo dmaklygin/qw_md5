@@ -11,5 +11,8 @@
     "nodejs"
   ],
   "author": "d.maklygin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "amdefine": "^0.1.0"
+  }
 }
