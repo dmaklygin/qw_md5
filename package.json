@@ -4,7 +4,7 @@
   "description": "md5 for qw",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "md5",
@@ -12,7 +12,9 @@
   ],
   "author": "d.maklygin",
   "license": "ISC",
-  "dependencies": {
-    "amdefine": "^0.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "md5": "~1.10.2",
+    "proxyquire": "^1.0.1"
   }
 }
