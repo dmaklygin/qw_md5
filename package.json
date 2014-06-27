@@ -14,13 +14,11 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-mocha-cli": "~1.9.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-cli": "^1.9.0",
     "matchdep": "~0.3.0",
-    "md5": "~1.10.2",
-    "proxyquire": "^1.0.1"
+    "proxyquire": "^1.0.1",
+    "blueimp-md5": "^1.1.0"
   }
 }
-
-

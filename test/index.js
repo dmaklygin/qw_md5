@@ -1,12 +1,12 @@
 var assert = require('assert');
-var md5 = require('md5');
+var md5 = require('blueimp-md5').md5;
 var proxyquire =  require('proxyquire').noCallThru();
 var testModule = proxyquire('../index', {
   internal: {
     api: function(lib) {
       switch (lib) {
         case 'md5':
-          return require('md5').digest_s;
+          return require('blueimp-md5').md5;
       }
       return null;
     }
@@ -20,7 +20,7 @@ describe('equals', function() {
   });
 
   it('should equal with "native" md5', function () {
-    assert.equal(testModule('test'), md5.digest_s('test'));
+    assert.equal(testModule('test'), md5('test'));
   });
 
   it('should return true if same md5 hash', function () {
