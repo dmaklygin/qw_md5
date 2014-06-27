@@ -20,7 +20,9 @@ module.exports = function(grunt) {
     }
 
   });
+
+  grunt.registerTask('test', ['jshint', 'mochacli']);
+  grunt.registerTask('default', ['test']);
+
 };
 
-grunt.registerTask('test', ['jshint', 'mochacli']);
-grunt.registerTask('default', ['test']);
