@@ -19,4 +19,3 @@ Example:
     
 Powered by [d.maklygin](https://github.com/dmaklygin).
 
-.
