@@ -18,3 +18,5 @@ Example:
     npm install qw_md5
     
 Powered by [d.maklygin](https://github.com/dmaklygin).
+
+.
