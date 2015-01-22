@@ -19,6 +19,7 @@
     "grunt-mocha-cli": "^1.9.0",
     "matchdep": "~0.3.0",
     "proxyquire": "^1.0.1",
-    "blueimp-md5": "^1.1.0"
+    "blueimp-md5": "^1.1.0",
+    "mocha": "~2.1.0"
   }
 }
